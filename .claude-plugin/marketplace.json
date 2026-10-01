@@ -11,12 +11,6 @@
       "description": "Firas's personal Claude skills (Ponytail, Superpowers debugging/verification, Impeccable UI design).",
       "source": "./",
       "category": "productivity"
-    },
-    {
-      "name": "claude-hud",
-      "description": "Status line under the input: context usage, rate limits, active tools and todos (by Jarrod Watts, MIT).",
-      "source": { "source": "github", "repo": "jarrodwatts/claude-hud" },
-      "category": "monitoring"
     }
   ]
 }

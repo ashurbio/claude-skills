@@ -34,9 +34,15 @@
   /plugin install ashur-skills@claude-skills
   ```
   وللتحديث بعد إضافة مهارات جديدة: `/plugin marketplace update claude-skills`
-- **شريط الحالة [Claude HUD](https://github.com/jarrodwatts/claude-hud)** (يبين امتلاء المحادثة وحد الاستخدام تحت مربع الكتابة، للترمنل): موجود بنفس الـmarketplace. نصّبه برسالتين منفصلتين:
+- **شريط الحالة [Claude HUD](https://github.com/jarrodwatts/claude-hud)** (يبين امتلاء المحادثة وحد الاستخدام تحت مربع الكتابة، للترمنل): نصّبه من مصدره، كل سطر برسالة منفصلة:
   ```
-  /plugin install claude-hud@claude-skills
+  /plugin marketplace add jarrodwatts/claude-hud
+  ```
+  ```
+  /plugin install claude-hud@claude-hud
+  ```
+  ```
+  /reload-plugins
   ```
   ```
   /claude-hud:setup
