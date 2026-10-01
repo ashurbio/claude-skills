@@ -13,6 +13,11 @@
 | [`verification-before-completion`](.claude/skills/verification-before-completion/SKILL.md) | ما يگول "خلص" أو "يشتغل" إلا بعد ما يشغّل الفحص ويشوف النتيجة بعينه |
 | [`impeccable`](.claude/skills/impeccable/SKILL.md) | جودة تصميم الواجهات: 24 أمر (`/impeccable audit`، `critique`، `polish`، `typeset`...) وكاشف لأخطاء التصميم الشائعة. يشتغل بمهام الواجهات بس |
 | [`webapp-testing`](.claude/skills/webapp-testing/SKILL.md) | يفتح موقعك بمتصفح حقيقي (Playwright)، يضغط ويجرب، ياخذ لقطات شاشة، ويقرا أخطاء الكونسول |
+| [`grilling`](.claude/skills/grilling/SKILL.md) | قبل ما تبدي مشروع أو قرار: يسألك أسئلة على جولات، وكل سؤال وياه جوابه المقترح، لحد ما تتوضح الفكرة كاملة |
+| [`teach`](.claude/skills/teach/SKILL.md) | `/teach <الموضوع>`: يسويلك كورس على مراحل بمجلد (دروس HTML، ملخصات، سجل تقدمك) ويكمل من وين ما وگفت |
+| [`deepread`](.claude/skills/deepread/SKILL.md) | قراءة عميقة لكتاب أو محاضرة أو PDF: ملخص، خريطة أفكار، شرح فاينمان، وأسئلة مراجعة |
+| [`statistical-analysis`](.claude/skills/statistical-analysis/SKILL.md) | تحليل نتائج التجارب: يختار الاختبار الإحصائي الصح (t-test، ANOVA، chi-square...)، يفحص الشروط، ويكتب النتيجة بصيغة علمية |
+| [`experimental-design`](.claude/skills/experimental-design/SKILL.md) | تصميم التجربة قبل جمع البيانات: المجموعات، الكونترول، العشوائية، وعدد المكررات، حتى تطلع النتائج قابلة للتحليل |
 
 ## الاستخدام
 
@@ -45,3 +50,9 @@
 مهارة `impeccable` ووكلاؤها الفرعيون (`.claude/agents/impeccable-*`) منقولة من [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (الإصدار 4.4.0) بدون تعديل، وتحت رخصة Apache 2.0. الرخصة والإشعارات في [`.claude/skills/LICENSE-impeccable`](.claude/skills/LICENSE-impeccable) و[`.claude/skills/NOTICE-impeccable.md`](.claude/skills/NOTICE-impeccable.md). الـ hooks التلقائية مالتها مو مضافة هنا؛ لتفعيلها نصّب الإضافة الأصلية.
 
 مهارة `webapp-testing` منقولة من [anthropics/skills](https://github.com/anthropics/skills) بدون تعديل، وتحت رخصة Apache 2.0 (النص داخل مجلدها: `LICENSE.txt`).
+
+مهارتا `grilling` و`teach` منقولتان من [mattpocock/skills](https://github.com/mattpocock/skills) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-mattpocock`](.claude/skills/LICENSE-mattpocock).
+
+مهارة `deepread` منقولة من [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-alirezarezvani`](.claude/skills/LICENSE-alirezarezvani).
+
+مهارتا `statistical-analysis` و`experimental-design` منقولتان من [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) (الإصدار 2.72.0)، وتحت رخصة MIT. التعديل الوحيد: حذفت قسم "Citing Scientific Agent Skills" اللي يطلب إضافة بحثهم لمراجع تقاريرك. نص الرخصة موجود في [`.claude/skills/LICENSE-kdense`](.claude/skills/LICENSE-kdense).
