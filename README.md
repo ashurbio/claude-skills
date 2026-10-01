@@ -18,6 +18,7 @@
 | [`deepread`](.claude/skills/deepread/SKILL.md) | قراءة عميقة لكتاب أو محاضرة أو PDF: ملخص، خريطة أفكار، شرح فاينمان، وأسئلة مراجعة |
 | [`statistical-analysis`](.claude/skills/statistical-analysis/SKILL.md) | تحليل نتائج التجارب: يختار الاختبار الإحصائي الصح (t-test، ANOVA، chi-square...)، يفحص الشروط، ويكتب النتيجة بصيغة علمية |
 | [`experimental-design`](.claude/skills/experimental-design/SKILL.md) | تصميم التجربة قبل جمع البيانات: المجموعات، الكونترول، العشوائية، وعدد المكررات، حتى تطلع النتائج قابلة للتحليل |
+| [`watch`](.claude/skills/watch/SKILL.md) | يشوف فيديو (رابط يوتيوب أو ملف): يطلع النص المكتوب ولقطات بتوقيتها، حتى تسأل عن محتواه أو تلخصه. يحتاج `ffmpeg` و`yt-dlp`، ومفتاح Gemini اختياري |
 
 ## الاستخدام
 
@@ -56,3 +57,5 @@
 مهارة `deepread` منقولة من [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-alirezarezvani`](.claude/skills/LICENSE-alirezarezvani).
 
 مهارتا `statistical-analysis` و`experimental-design` منقولتان من [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) (الإصدار 2.72.0)، وتحت رخصة MIT. التعديل الوحيد: حذفت قسم "Citing Scientific Agent Skills" اللي يطلب إضافة بحثهم لمراجع تقاريرك. نص الرخصة موجود في [`.claude/skills/LICENSE-kdense`](.claude/skills/LICENSE-kdense).
+
+مهارة `watch` منقولة من [bradautomates/claude-video](https://github.com/bradautomates/claude-video) (الإصدار 0.3.2) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-claude-video`](.claude/skills/LICENSE-claude-video). الـ hook مالتها (يفحص التنصيب ببداية الجلسة) مو مضاف هنا.
