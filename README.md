@@ -11,6 +11,7 @@
 | [`ponytail-audit`](.claude/skills/ponytail-audit/SKILL.md) | يفحص المشروع كله ويدور على التعقيد الزايد ويرتبه من الأكبر للأصغر |
 | [`systematic-debugging`](.claude/skills/systematic-debugging/SKILL.md) | تصليح الأخطاء بأربع مراحل: يلگى السبب الأصلي قبل أي تصليح، وإذا فشلت 3 محاولات يوگف ويراجع التصميم |
 | [`verification-before-completion`](.claude/skills/verification-before-completion/SKILL.md) | ما يگول "خلص" أو "يشتغل" إلا بعد ما يشغّل الفحص ويشوف النتيجة بعينه |
+| [`impeccable`](.claude/skills/impeccable/SKILL.md) | جودة تصميم الواجهات: 24 أمر (`/impeccable audit`، `critique`، `polish`، `typeset`...) وكاشف لأخطاء التصميم الشائعة. يشتغل بمهام الواجهات بس |
 
 ## الاستخدام
 
@@ -39,3 +40,5 @@
 مهارات Ponytail منقولة من [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (الإصدار 4.10.0) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-ponytail`](.claude/skills/LICENSE-ponytail).
 
 مهارتا `systematic-debugging` و`verification-before-completion` منقولتان من [obra/superpowers](https://github.com/obra/superpowers) (الإصدار 6.4.2) بدون تعديل، وتحت رخصة MIT. نص الرخصة موجود في [`.claude/skills/LICENSE-superpowers`](.claude/skills/LICENSE-superpowers).
+
+مهارة `impeccable` ووكلاؤها الفرعيون (`.claude/agents/impeccable-*`) منقولة من [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (الإصدار 4.4.0) بدون تعديل، وتحت رخصة Apache 2.0. الرخصة والإشعارات في [`.claude/skills/LICENSE-impeccable`](.claude/skills/LICENSE-impeccable) و[`.claude/skills/NOTICE-impeccable.md`](.claude/skills/NOTICE-impeccable.md). الـ hooks التلقائية مالتها مو مضافة هنا؛ لتفعيلها نصّب الإضافة الأصلية.
