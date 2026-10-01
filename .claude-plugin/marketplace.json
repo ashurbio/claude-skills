@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "ashur-skills",
-      "description": "Firas's personal Claude skills (Ponytail: ponytail, ponytail-review, ponytail-audit).",
+      "description": "Firas's personal Claude skills (Ponytail + Superpowers debugging and verification).",
       "source": "./",
       "category": "productivity"
     }
