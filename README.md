@@ -34,6 +34,14 @@
   /plugin install ashur-skills@claude-skills
   ```
   وللتحديث بعد إضافة مهارات جديدة: `/plugin marketplace update claude-skills`
+- **شريط الحالة [Claude HUD](https://github.com/jarrodwatts/claude-hud)** (يبين امتلاء المحادثة وحد الاستخدام تحت مربع الكتابة، للترمنل): موجود بنفس الـmarketplace. نصّبه برسالتين منفصلتين:
+  ```
+  /plugin install claude-hud@claude-skills
+  ```
+  ```
+  /claude-hud:setup
+  ```
+  بالويندوز يحتاج Node.js: `winget install OpenJS.NodeJS.LTS`
 - **النسخة الكاملة من Ponytail** (مع الـ hooks اللي تخليه شغال دائماً): نصّبها من Claude Code برسالتين منفصلتين:
   ```
   /plugin marketplace add DietrichGebert/ponytail
