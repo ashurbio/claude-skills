@@ -1,0 +1,16 @@
+{
+  "name": "claude-skills",
+  "description": "Firas's personal Claude skills.",
+  "owner": {
+    "name": "ashurbio",
+    "url": "https://github.com/ashurbio"
+  },
+  "plugins": [
+    {
+      "name": "ashur-skills",
+      "description": "Firas's personal Claude skills (Ponytail: ponytail, ponytail-review, ponytail-audit).",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

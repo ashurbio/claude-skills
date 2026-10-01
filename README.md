@@ -13,7 +13,14 @@
 ## الاستخدام
 
 - **تطبيق Claude:** المهارات محفوظة بالحساب، وتشتغل بروحها بأي مهمة برمجة.
-- **Claude Code:** انسخ مجلد المهارة إلى `~/.claude/skills/` (لكل المشاريع) أو إلى `.claude/skills/` داخل المشروع.
+- **Claude Code:** نصّب كل المهارات برسالتين منفصلتين:
+  ```
+  /plugin marketplace add ashurbio/claude-skills
+  ```
+  ```
+  /plugin install ashur-skills@claude-skills
+  ```
+  وللتحديث بعد إضافة مهارات جديدة: `/plugin marketplace update claude-skills`
 - **النسخة الكاملة من Ponytail** (مع الـ hooks اللي تخليه شغال دائماً): نصّبها من Claude Code برسالتين منفصلتين:
   ```
   /plugin marketplace add DietrichGebert/ponytail
